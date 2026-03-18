@@ -1,0 +1,40 @@
+---
+title: "CNC Machining Tolerances: What ±0.005mm Really Means"
+slug: cnc-machining-tolerances-what-0-005mm-really-means
+excerpt: A practical guide to tolerance interpretation, process capability, and cost implications in CNC machining.
+coverImage: https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=1400&q=60
+author:
+  name: Amit Deshmukh
+  avatar: https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=60
+  role: Production Manager
+publishedAt: "2026-03-12"
+readingTime: 8 min read
+tags:
+  - cnc
+  - tolerances
+  - quality
+category: Engineering
+featured: false
+seoTitle: CNC Machining Tolerances Explained (±0.005mm) | Axis Micro
+seoDesc: Understand what tight tolerances require in setup, inspection, tooling, and process control.
+---
+
+Tight tolerances are achievable, but they are never free.
+
+## What drives tolerance capability
+
+- Machine condition and thermal stability
+- Tool wear management
+- Fixture repeatability
+- In-process inspection discipline
+
+```ts
+type ToleranceBand = {
+  nominal: number;
+  plus: number;
+  minus: number;
+};
+```
+
+When a print calls for ±0.005mm, every process variable must be controlled consistently.
+
